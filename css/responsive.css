@@ -1,0 +1,153 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){ 
+    .welcome p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .icon{
+        display: none;
+    }
+    
+    .navbar-nav{
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-item .nav-link.active,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background-color: green;
+        border-bottom: 1px solid #fff;
+        color: white;
+        padding: 10px 0;
+    }
+    
+    .banner_con{
+        text-align: center;
+    }
+    
+    .banner_con h1{
+        font-size: 30px;
+    }
+    
+    .sm_d_none{
+        display: none;    
+    }
+    
+    .about_img img{
+        padding-left: 10px;
+    }
+    .about_con P{
+        padding-left: 10px;
+    }
+    .big_image{
+        margin-bottom: 20px;
+    }
+    
+    
+    .piramid {
+    left: 43%;
+}
+  
+    .round_img {
+    margin-top: 20px;
+}
+    
+    .f_logo{
+        text-align: center;
+    }
+    
+    
+    
+    .f_common_heading{
+        text-align: center;    
+    }
+    
+    .f_icon{
+        padding-left: 50px;
+    }
+    
+    .sm_f_menu{
+        padding-left: 80px;
+    }
+    
+    
+    
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+    
+    
+      .navbar-nav{
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-item .nav-link.active,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background-color: green;
+        border-bottom: 1px solid #fff;
+        color: white;
+        padding: 10px 0;
+    }
+
+    
+    .banner_con{
+        text-align: center;
+    }
+    
+     .sm_d_none{
+        display: none;    
+    }
+    
+    .about_con p{
+        padding-top: 0;
+    }
+    
+    .ser_main{
+        margin-top: 60px;
+    }
+    
+    
+    .big_image{
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    
+    
+    
+      .f_logo{
+        text-align: center;
+    }
+    
+    
+    
+    .f_common_heading{
+        text-align: center;    
+    }
+    
+    .f_icon{
+        padding-left: 120px;
+    }
+    
+    .sm_f_menu{
+        padding-left: 180px;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) { ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 
+) { ... }
